@@ -1,5 +1,7 @@
 body {
-     height: 2000px;
+     height: 1400px;
+     background-image: url(/img/microsoft-intune-expands-macos-app-management-support-945x630.png)
+     
 }
 .signup-wrapper {
      width: 700px;
@@ -9,6 +11,7 @@ body {
      margin-top: 60px;
      border-radius: 25px;
      animation: slide-down 1000ms ;
+     
 }
 
 .sgup-1 {
@@ -130,7 +133,8 @@ body {
 }
 
 .signup:hover {
-     box-shadow: 0px 3px 2px #0224ff22;
+     box-shadow: 0px 3px 2px #889cff73;
+     background-color: #001ee1;
 }
 
 .cb {
@@ -151,4 +155,9 @@ body {
           transform: translateX(0%);
           opacity: 100%;
      }
+}
+
+input {
+     display: flex;
+}
      
