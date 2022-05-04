@@ -1,0 +1,154 @@
+body {
+     height: 2000px;
+}
+.signup-wrapper {
+     width: 700px;
+     height: 1200px;
+     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.267);
+     background-color: rgb(255, 255, 255);
+     margin-top: 60px;
+     border-radius: 25px;
+     animation: slide-down 1000ms ;
+}
+
+.sgup-1 {
+     text-align: center;
+     padding-top: 50px;
+     font-size: 40px;
+     color: #0022FF;
+}
+
+.sgup-p1 {
+     text-align: center;
+     font-size: 16px;
+     width: 50%;
+     margin-top: 30px;
+     opacity: 50%;
+}
+.form-wrapper {
+     width: 500px;
+     height: 700px;
+     text-align: center;
+     margin-top: 50px;
+}
+.Email-Input {
+     padding: 16px 100px;
+     outline: none;
+     border: 2px solid #0022FF;
+}
+
+.email-input {
+     padding: 16px 50px;
+     outline: none;
+     border: 2px solid #0022FF;
+     border-radius: 18px;
+     
+}
+
+.email-ip {
+     padding: 15px 100px;
+     background-color: rgba(0, 0, 0, 0.034);
+     border: none;
+     outline: none;
+     font-size: 15px;
+     margin-right: 200px;
+     text-align: center;
+     margin-top: 20px;
+
+}
+
+.uil {
+     font-size: 40px;
+}
+
+.ei-p {
+     font-style: normal;
+     text-align: center;
+     font-size: 30px;
+}
+
+.em-tips {
+     opacity: 50%;
+     margin-top: 5px;
+}
+
+.password-input{
+     padding: 30px 50px;
+     outline: none;
+     border: 2px solid #0022FF;
+     border-radius: 18px;
+}
+
+.password-ip {
+     padding: 15px 100px;
+     background-color: rgba(0, 0, 0, 0.034);
+     border: none;
+     outline: none;
+     font-size: 15px;
+     margin-right: 200px;
+     text-align: center;
+     margin-top: 20px;
+}
+
+.password-confirm-ip {
+     padding: 15px 100px;
+     background-color: rgba(0, 0, 0, 0.034);
+     border: none;
+     outline: none;
+     font-size: 15px;
+     margin-right: 200px;
+     text-align: center;
+     margin-top: 10px;
+}
+
+.phone-num-input {
+     padding: 30px 50px;
+     outline: none;
+     border: 2px solid #0022FF;
+     border-radius: 18px;
+     margin-top: 20px;
+
+}
+
+.noti {
+     display: flex;
+     margin-top: 20px;
+}
+
+.noti-p {
+     opacity: 50%;
+}
+
+.signup {
+     background-color: #0022FF;
+     color: white;
+     font-size: 14px;
+     padding: 18px 200px;
+     border: none;
+     border-radius: 8px;
+     transition: 300ms ease;
+}
+
+.signup:hover {
+     box-shadow: 0px 3px 2px #0224ff22;
+}
+
+.cb {
+     margin-left: 40px;
+}
+
+.uil {
+     font-size: 21px;
+}
+
+@keyframes slide-down {
+     from {
+          transform: translateY(100%);
+          opacity: 0%;
+          
+     }
+     to {
+          transform: translateX(0%);
+          opacity: 100%;
+     }
+     

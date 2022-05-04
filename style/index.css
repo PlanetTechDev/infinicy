@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+     font-family: Inter;
+     margin: auto;
+     
+}
+
+body {
+     margin: auto;
+}
+
+/* Navigation Bar */
+
+.navigation-bar{
+     width: 100%;
+     height: 90px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: rgba(0, 0, 0, 0.422) 0px 1px 10px 0px;
+     
+}
+
+li {
+     display: inline;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 20px;
+     
+     
+}
+
+ul {
+     display: flex;
+}
+a {
+     text-decoration: none;
+}
+
+.text-blck {
+     color: black;
+}
+
+.infi-logo {
+     width: 40%;
+}
+
+.Signup {
+     background-color: #0022FF;
+     padding: 10px 30px;
+     border-radius: 8px;
+     color: white;
+     transition: 300ms ease;
+}
+
+.Signup:hover {
+     background-color: #203eff;
+}
+
+.search-bar {
+     background: none;
+     border: none;
+     padding: 10px 20px;
+     outline: none;
+     
+}
+
+.search-bar-container {
+     display: flex;
+     background-color: white;
+     border: 2px solid #0022FF;
+     outline: none;
+     transition: 300ms ease;
+     border-radius: 3px;
+}
+
+.search-bar-container:hover {
+     box-shadow: rgba(0, 0, 0, 0.422) 0px 1px 10px 0px;
+}
+
+.nav-hover {
+     transition: 300ms ease;
+}
+
+.nav-hover:hover {
+     color: #0022FF;
+}
+
+
+.search-icon{
+     border: none;
+     outline: none;
+     background-color: #232f7d00;
+}
+
+i {
+     color: #0022FF;
+}
+
+/* Main Header */
+
+.main-header {
+     width: 100%;
+     height: 400px;
+     
+}
+
+.text-wrapper {
+     width: 600px;
+     height: 200px;
+     margin-left: 170px;
+     margin-top: 150px;
+     
+}
+
+.mh-t {
+     width: 820px;
+     font-weight: 600;
+     font-size: 50px;
+     animation: slide-left 2000ms;
+     letter-spacing: -3px;
+}
+
+.mp-t {
+     font-size: 20px;
+     margin-top: 40px;
+     opacity: 56%;
+     letter-spacing: -1px;
+     animation: slide-left 2000ms;
+     
+}
+
+.btn-wrapper {
+     margin-top: 40px;
+     animation: slide-left 2000ms;
+
+     
+     
+}
+.ji-btn {
+     background-color: #0022FF;
+     padding: 18px 30px;
+     color: white;
+     border-radius: 3px;
+     transition: 300ms ease;
+}
+
+.ji-btn:hover {
+     background-color: #001ee0;
+     box-shadow: 0px 3px 1px rgba(0, 8, 255, 0.282);
+}
+.ei-btn {
+     margin-left: 30px;
+     border:2px solid #0022FF;
+     padding: 16px 30px;
+     color: #0022FF;
+     font-weight: 600;
+     border-radius: 3px;
+     transition: 300ms ease;
+}
+
+.ei-btn:hover {
+     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.282);
+     
+}
+
+/* animation */
+
+@keyframes slide-left {
+     from {
+          transform: translateX(-100%);
+          opacity: 0%;
+          
+     }
+     to {
+          transform: translateX(0%);
+          opacity: 100%;
+     }
+     
+}
+
+/* Referral / Promotional Banner */
+
+.refferal-banner_wrapper {
+     width: 100%;
+     background-color: #0022FF;
+     height: 60px;
+}
+
+.ads-text {
+     color: white;
+     display: flex;
+     text-align: center;
+     font-weight: 400;
+     justify-content: center;
+     align-items: center;
+     font-size: 23px;
+     padding-top: 15px;
+}
+
+/* Courses Wrapper */
+.courses-main-wrapper {
+     width: 100%;
+     height: 2000px;
+     margin-top: 40px;
+}
+.trending-courses {
+     
+     margin-left: auto;
+     margin-right: auto;
+     width: 1300px;
+     height: 500px;
+     
+}
+
+.tr-tx {
+     color: #007EE0;
+     font-weight: 500;
+     font-size: 22px;
+}
